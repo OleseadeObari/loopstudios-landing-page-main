@@ -7,12 +7,14 @@ body {
   /* font-family: "Alata", sans-serif; */
   font-family: "Josefin Sans", sans-serif;
 }
+
 .container {
 }
 .section-one {
 }
 
 .hero-carrd {
+  width: 100%;
   max-width: 100%;
   height: 100vh;
   background: url(./loopstudios-landing-page-main/images/desktop/image-hero.jpg);
@@ -25,6 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 4rem 5rem 5rem 5rem;
+  /* width: 100%; */
 }
 .hamburger-mobile {
   display: none;
@@ -68,7 +71,9 @@ nav a {
 .section-two {
   margin: 2rem 0;
 }
-
+/* .section-two-carrd img {
+  width: 100%;
+} */
 .section-two-carrd {
   margin: 7rem 5rem;
   position: relative;
@@ -145,6 +150,10 @@ nav a {
   margin-top: 2rem;
   display: flex;
 }
+/* .col-one-image img,
+.col-two-image img {
+  width: 100%;
+} */
 .col-one-image,
 .col-two-image {
   position: relative;
@@ -163,6 +172,7 @@ nav a {
 
 footer {
   background-color: hsl(0, 0%, 2%);
+  width: 100%;
 }
 .footer-row-one {
   display: flex;
@@ -314,12 +324,12 @@ footer {
     display: none;
   }
   .section-three-header-mobile {
-    font-size: 30px;
-    letter-spacing: 10px;
+    /* font-size: 24px; */
+    font-size: 26px;
+    letter-spacing: 6px;
     text-transform: uppercase;
     color: hsl(0, 0%, 0%);
     text-align: center;
-    margin-left: 3rem;
   }
   .section-three-images-mobile {
     margin: 0 0.6rem;
