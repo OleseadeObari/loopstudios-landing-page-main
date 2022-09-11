@@ -1,4 +1,5 @@
 # Frontend Mentor - Loopstudios landing page
+Github page link: https://oleseadeobari.github.io/loopstudios-landing-page-main/
 
 ![Design preview for the Loopstudios landing page coding challenge](./design/desktop-preview.jpg)
 
